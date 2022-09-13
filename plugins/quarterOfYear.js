@@ -25,6 +25,13 @@
         this.$utils().p(i) === n ? this.add(3 * e, t) : s.bind(this)(e, i)
       );
     };
+    var s = r.subtract;
+    r.subtract = function (e, i) {
+      return (
+        (e = Number(e)),
+        this.$utils().p(i) === n ? this.subtract(3 * e, t) : s.bind(this)(e, i)
+      );
+    };
     var u = r.startOf;
     r.startOf = function (e, i) {
       var r = this.$utils(),
